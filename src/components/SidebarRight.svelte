@@ -1,6 +1,6 @@
 <script>
-  import Sponsors from './Sponsors.svelte'
-  import Events from './Events.svelte'
+  import Sponsors from './sponsors-card/Sponsors.svelte'
+  import Events from './events-card/Events.svelte'
 </script>
 
 <style>

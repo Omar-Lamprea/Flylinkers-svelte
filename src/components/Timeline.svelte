@@ -1,6 +1,6 @@
 <script>
   import AddPost from './AddPost.svelte'
-  import Card from './Card.svelte'
+  import Card from './post/Card.svelte'
 </script>
 
 <style>
@@ -12,7 +12,6 @@
 <div class="Timeline col-6">
   <div class="Timeline-container">
     <AddPost/>
-    <Card/>
     <Card/>
   </div>
 </div>

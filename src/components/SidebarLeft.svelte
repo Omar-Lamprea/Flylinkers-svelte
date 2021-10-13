@@ -1,7 +1,7 @@
 <script>
-  import ProfileCard from './ProfileCard.svelte'
-  import Groups from './Groups.svelte'
-  import Hashtags from './Hashtags.svelte'
+  import ProfileCard from './Profile-card/ProfileCard.svelte'
+  import Groups from './groups-card/Groups.svelte'
+  import Hashtags from './hashtags-card/Hashtags.svelte'
 </script>
 
 <style>

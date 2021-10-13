@@ -1,4 +1,5 @@
 <script>
+  import {onMount} from 'svelte'
   import Header from '../components/Header.svelte'
   import Main from '../components/Main.svelte'
   import SidebarLeft from '../components/SidebarLeft.svelte'
@@ -37,7 +38,6 @@
     padding: 1.2rem 2rem;
     margin-bottom: 1.2rem;
   }
-
 </style>
 
 <Header/>

@@ -164,5 +164,5 @@
       </div> -->
     </div>
 
-  <Comments/>
+  <!-- <Comments/> -->
 </div>
