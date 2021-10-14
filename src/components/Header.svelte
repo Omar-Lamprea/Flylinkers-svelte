@@ -25,7 +25,7 @@
     <div class="Header-content d-flex align-items-center justify-content-between">
       <div class="Header-logo d-flex align-items-center p-3">
         <a href="/" class="d-flex align-items-center">
-          <img src="flylinkers-logo-blanco.png" alt="logo" width="100">
+          <img src="./img/flylinkers-logo-blanco.png" alt="logo" width="100">
           <h1>FlyLinkers</h1>
         </a>
       </div>

@@ -23,9 +23,6 @@
       link: '/'
     },
   ]
-  data.forEach(element => {
-    console.log(element.name);
-  });
 </script>
 
 <style>

@@ -6,6 +6,28 @@
   import SidebarRight from '../components/SidebarRight.svelte'
   import Timeline from '../components/Timeline.svelte'
 
+  //Routes
+  import Profile from '../components/Profile/Profile.svelte'
+
+  // let currentPage = [
+  //   {
+  //     home:[SidebarLeft, Timeline]
+  //   },
+  //   {
+  //     profile: [Profile, SidebarRight]
+  //   }
+  // ]
+
+  let currentPage = 'home'
+
+  function changePage(newPage){
+    currentPage = newPage
+    // history.pushState(null, currentPage, `/${currentPage}`);
+  }
+
+  
+
+
 </script>
 
 <style>
@@ -40,10 +62,25 @@
   }
 </style>
 
-<Header/>
+<Header />
 
 <Main>
-  <SidebarLeft/>
-  <Timeline/>
-  <SidebarRight/>
+  <div class="nav">
+    <button on:click={() =>changePage('home')}>Home</button>
+    <button on:click={() =>changePage('profile')}>Profile</button>
+  </div>
+
+  <!-- <svelte:component this={currentPage.profile[0]} />
+  <svelte:component this={currentPage.profile[1]} /> -->
+
+  {#if currentPage === 'home'}
+    <SidebarLeft />
+    <Timeline />
+    <!-- <Profile /> -->
+    <SidebarRight />
+  {:else if currentPage === 'profile'}
+    <Profile />
+    <SidebarRight />
+  {/if}
+
 </Main>

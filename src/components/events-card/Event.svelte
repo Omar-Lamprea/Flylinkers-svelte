@@ -1,3 +1,7 @@
+<script>
+  export let title, eventLogo, date, start, end, place, href, linkName
+</script>
+
 <style>
   .Event{
     font-size: 12px;
@@ -38,21 +42,21 @@
     <li>
       <div class="Event-row d-flex align-items-center">
         <i class="fas fa-circle"></i>
-        <h6>Flight operation Conferences</h6>
+        <h6>{title}</h6>
       </div>
       <div class="row mt-1">
         <div class="Event-img col-6 d-flex align-items-end justify-content-end">
-          <img src="https://arepa.s3.amazonaws.com/elmo002.jpg" alt="">
+          <img src="{eventLogo}" alt="">
         </div>
         <div class="Event-details col-6">
-          <p>Date: <span>10/12/2021</span></p>
-          <p>Start time: <span>9:00 am</span></p>
-          <p>Final hour: <span>11:00 am</span></p>
-          <p>Place: <span></span>Virtual</p>
+          <p>Date: <span>{date}</span></p>
+          <p>Start time: <span>{start}</span></p>
+          <p>Final hour: <span>{end}</span></p>
+          <p>Place: <span></span>{place}</p>
         </div>
       </div>
       <div class="Event-link m-3">
-        <a href="/">https://www.linkedin.com/in/flylinkers.com</a>
+        <a href="{href}">{linkName}</a>
       </div>
     </li>
   </ul>

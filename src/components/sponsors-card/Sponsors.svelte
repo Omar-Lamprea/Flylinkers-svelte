@@ -1,5 +1,24 @@
 <script>
   import Sponsor from './Sponsor.svelte'
+
+  const data = [
+    {
+      sponsorName: 'Aeronex Cargo',
+      sponsorlogo: './img/aeronex-logo.png'
+    },
+    {
+      sponsorName: 'Jet Blue Airways',
+      sponsorlogo: './img/JetBlue-logo.png'
+    },
+    {
+      sponsorName: 'FlyKargo',
+      sponsorlogo: './img/FlyKargo-logo.png'
+    },
+    {
+      sponsorName: 'Air Bridge Cargo',
+      sponsorlogo: './img/AirBridgeCargo-logo.png'
+    },
+  ]
 </script>
 
 <style>
@@ -15,10 +34,10 @@
   </div>
   <div class="Sponsors-column">
     <div class="Sponsor">
-      <Sponsor/>
-      <Sponsor/>
-      <Sponsor/>
-      <Sponsor/>
+      {#each data as sponsor}
+        <Sponsor {...sponsor}/>
+
+      {/each}
     </div>
   </div>
 </div>

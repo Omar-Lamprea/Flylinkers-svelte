@@ -1,3 +1,7 @@
+<script>
+  export let sponsorName, sponsorlogo
+</script>
+
 <style>
   .Sponsor{
     border-bottom: 1px solid var(--main-color);
@@ -14,9 +18,9 @@
 
 <div class="Sponsor text-center mb-4">
   <div class="Sponsor-title">
-    <h6>Aeronex Cargo</h6>
+    <h6>{sponsorName}</h6>
   </div>
   <div class="Sponsor-logo">
-    <img src="./aeronex-logo.png" alt="">
+    <img src="{sponsorlogo}" alt="">
   </div>
 </div>

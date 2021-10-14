@@ -1,6 +1,7 @@
 <script>
   import Sponsors from './sponsors-card/Sponsors.svelte'
   import Events from './events-card/Events.svelte'
+  import People from './People/People.svelte'
 </script>
 
 <style>
@@ -14,5 +15,6 @@
   <div class="Sidebar-container">
     <Events/>
     <Sponsors/>
+    <People/>
   </div>
 </div>

@@ -1,5 +1,5 @@
 <script>
-  import AddPost from './AddPost.svelte'
+  import AddPost from './post/AddPost.svelte'
   import Card from './post/Card.svelte'
 </script>
 
