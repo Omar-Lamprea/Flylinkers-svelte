@@ -55,7 +55,15 @@
   }
 
   :global(.Default-containers){
+    background-color: #fafafa;
     border: .5px solid var(--main-color);
+    border-radius: 1rem;
+    padding: 1.2rem 2rem;
+    margin-bottom: 1.2rem;
+  }
+  :global(.Default-containers-grey){
+    background-color: #EFEFEF;
+    border: none;
     border-radius: 1rem;
     padding: 1.2rem 2rem;
     margin-bottom: 1.2rem;

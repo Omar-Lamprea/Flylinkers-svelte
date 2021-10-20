@@ -82,7 +82,7 @@
   <div class="Card-container">
     <div class="Card-Header">
       <div class="Card-user">
-        <img src="https://arepa.s3.amazonaws.com/elmo002.jpg" alt="">
+        <img src="./img/pilot.jpg" alt="">
         <h2>
           SAM ANDERSON
           <span>Front-end Developer at Memed</span>
@@ -95,13 +95,13 @@
     </div>
 
     <div class="Card-description">
-      <span>Hola!</span>
+      <span>Hi!</span>
     </div>
   </div>
 
     <div class="Card-photo">
       <figure>
-        <img src="https://arepa.s3.amazonaws.com/elmo002.jpg" alt="">
+        <img src="https://midamericajet.com/wp-content/uploads/2020/10/Flying-Private-1.jpg" alt="">
       </figure>
     </div>
 

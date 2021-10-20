@@ -12,5 +12,5 @@
 </style>
 
 <div class="CoverPhoto">
-    <img src="https://arepa.s3.amazonaws.com/elmo002.jpg" alt="">
+    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-2000w,f_auto,q_auto:best/newscms/2021_10/3455159/210308-pilot-airport-mn-1315.jpg" alt="">
 </div>
